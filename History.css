@@ -1,0 +1,318 @@
+body {
+    top:0 px;
+    right:0 px;
+    bottom: 0 px;
+    left: 0px;      /* padding */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-family: "Gotham A", "Gotham B", Arial,Verdana,Helvetica, sans-serif !important;
+  
+   
+  
+  }
+  
+  /* Navigation bar */
+  
+  
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0px 90px 0px 0px;
+   
+  
+  
+  }
+  
+  li {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-family: "Gotham A", "Gotham B", Arial,Verdana,Helvetica, sans-serif !important
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: #002147;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #49adaf;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #49adaf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2px;
+  }
+  
+  .dropdown-content a {
+    color: #002147;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #ffe012}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  
+  /* end of Navigation bar */
+  
+  #header #nav {
+  margin-top: -60px;
+  }
+  
+  #header #logo img{
+  margin: 0px 90px;
+  width: 190px;
+  height: 100px;
+  }
+  
+  
+  #header{
+    width: 1200px;
+    height: 100px;
+    background: white;
+    margin: auto;
+    }
+  
+  
+  
+  
+  #wrapper{
+    width: 1200px;
+    height: auto;
+  
+    margin: 0px auto;
+    
+    
+    }
+    
+  
+  
+  /* Main 2 CSS */    
+  .main2about{
+    height: 400px;
+    }
+  
+  .main2about .main2aboutbutton ul li{
+  padding: 10px 20px 10px 20px;
+  margin: -90px 90px;
+  background-color: #ffe012;
+  font-size: 21px;
+  position: relative;
+  float:left;
+  border-radius: 10px;
+  ~moz-border-radius: 10px;
+  box-shadow: 0px 0px 5px #0f2e52;
+  ~moz~box~shadow: 0px 0px 5px #0f2e52;
+  ~webkit-box-shadow: 0px 0px 5px #0f2e52;
+  
+  
+  }
+  
+  .main2about .main2aboutbutton ul li a:hover {
+    background-color: #ffe012;
+  
+  }
+  
+  .main2about .table2about{
+  width: 350px;
+  height: 350px;
+  margin: 0px 90px;
+  color: #002147;
+  }
+  
+  /* End of Main 2 CSS */ 
+  
+  
+  
+  
+  
+  
+  /* Main 3 CSS */
+  
+  .main3about{
+    height: 400px;
+    }
+  
+  .main3about .main3aboutbutton ul li{
+  padding: 10px 20px 10px 20px;
+  margin: -90px 230px;
+  background-color: #ffe012;
+  font-size: 21px;
+  position: relative;
+  border-radius: 10px;
+  ~moz-border-radius: 10px;
+  
+  box-shadow: 0px 0px 5px #0f2e52;
+  ~moz~box~shadow: 0px 0px 5px #0f2e52;
+  ~webkit-box-shadow: 0px 0px 5px #0f2e52;
+  
+  }
+  
+  .main3about .main3aboutbutton ul li a:hover {
+    background-color: #ffe012;
+  
+  }
+  
+  .main3about .table3about{
+  width: 350px;
+  height: 350px;
+  margin: 0px 710px;
+  color: #002147;
+  
+  }
+  
+  /* End of Main 3 CSS */
+  
+  
+  /* Main 4 CSS */    
+  
+  .main4about{
+    height: 400px;
+  
+  }
+  
+  .main4about .table4about{
+  width: 350px;
+  height: 350px;
+  color: #002147;
+  margin-left:auto; 
+  margin-right:auto;
+  
+  
+  
+  
+  }
+  
+  .main4about .main4aboutbutton ul li{
+  padding: 10px 20px 10px 20px;
+  margin: -90px 490px;
+  background-color: #49adaf ;
+  font-size: 21px;
+  position: relative;
+  border-radius: 10px;
+  ~moz-border-radius: 10px;
+  box-shadow: 0px 0px 5px #0f2e52;
+  ~moz~box~shadow: 0px 0px 5px #0f2e52;
+  ~webkit-box-shadow: 0px 0px 5px #0f2e52;
+   width: 150px;
+  
+  }
+  
+  .main4about .main4aboutbutton ul li a:hover {
+    background-color: #49adaf;
+  }
+  
+  /* End of Main 4 CSS */ 
+  
+  #footer{
+    height: 160px;
+    font-size: 14px;
+    font-family: "Gotham A", "Gotham B", Arial,Verdana,Helvetica, sans-serif !important;
+    font-size: 18px;
+    
+  }
+  
+  #footer1 a:link {
+    text-decoration: none;}
+  
+    #footer1 a:visited {
+      text-decoration: none;
+      color: white
+    }
+    
+  
+  /* footer 1 CSS */
+  
+  #footer1{
+    height: 120px;
+    font-size: 14px;
+    background-color: #002147;
+    color: white;
+  
+   }
+  
+  #footer1 a:link {
+    text-decoration: none;
+    color: white
+  }
+  
+  .footerhyperlinks{
+    
+    vertical-align: top;
+  
+  
+  }
+  
+  
+  #table1{
+    margin: 0px;  
+    padding: 0px 0px 0px 90px;
+    text-decoration: none
+  }
+  
+  
+  /* end of footer 1 CSS */
+  
+  
+  
+  
+   
+  #footer2{
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+   background-color: #002147;
+    color: white;
+  
+  
+    }
+
+     /* About Page CSS */
+  
+  #aboutpage{
+    height: 400px;
+  }
+  
+  
+  
+  
+  
+  #aboutheader{
+  font-size: 25px;
+  text-align: center;
+  padding: 2%;
+  font-family: Gotham B;
+  color: white;
+  
+   
+  
+  }
+  
+  
+  /* End of About Page CSS */
+   
+ .ourhistory {
+    height: 400px;
+  }
+  
